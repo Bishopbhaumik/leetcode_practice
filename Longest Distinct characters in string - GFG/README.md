@@ -1,5 +1,5 @@
 # Longest Distinct characters in string
-## Easy 
+##  Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a string <strong>S</strong>, find length of the longest substring with all distinct characters.&nbsp;</span></p>
 
