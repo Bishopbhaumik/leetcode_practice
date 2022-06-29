@@ -11,8 +11,10 @@ public:
         
         for(auto i : words)              
             mp[i]++;
+
+        int i=0;
         
-        for(int i=0;i<=n-totalsize; i++)
+        while(i<=n-totalsize)
         {
             unordered_map<string,int> umap;  
             
@@ -27,6 +29,7 @@ public:
             
             if(umap==mp) 
                 res.push_back(i);  
+            i++;
         }
         return res;
     }
