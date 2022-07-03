@@ -20,11 +20,8 @@ public:
                cur=cur->next;
         
         if(cur==NULL)
-        {
-            //  head=cur->next;
-            // return head;
             return cur=right->next;
-        }
+        
    
         
         while(1)
