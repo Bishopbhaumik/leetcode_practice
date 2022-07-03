@@ -14,7 +14,6 @@ public:
         
        map<int,int>mp;
         ListNode* curr=head;
-        //if (head==NULL)
         while(curr!=NULL)
         {      
             mp[curr->val]++;            
@@ -29,6 +28,7 @@ public:
             head=head->next;   
             }
         } 
-        return newhead->next;
+        newhead=newhead->next;
+        return newhead;
     }
 };
