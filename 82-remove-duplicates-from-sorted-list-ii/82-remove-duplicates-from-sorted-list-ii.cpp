@@ -22,17 +22,13 @@ public:
         }
            
         ListNode* newhead=new ListNode(0);
-        
-        head=newhead;
-        
+        head=newhead;   
         for(auto x : mp){     
             if(x.second==1){          
             head->next=new ListNode(x.first);        
             head=head->next;   
             }
-        }
-        
-        // head->next=NULL;  
+        } 
         return newhead->next;
     }
 };
